@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dotgothic16-regular {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: #d7e8f1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.board {
+    height: 50%;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    background-color: #5992a4;
+    padding: 0.45rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: 20%;
+}
+
+.cell {
+    height: 29.5%;
+    width: 29.5%;
+    border-radius: 20px;
+    background-color: #072a40;
+    margin: .45rem;
+    font-size: 3rem;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.button {
+
+    background-color: #5992a4;
+    border: none;
+    border-radius: 30px;
+    color: #072a40;
+    padding: 0.75rem 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.message{
+    margin-top: auto;
+    color: black
+}
+
+.disabled{
+    pointer-events: none;
+}
